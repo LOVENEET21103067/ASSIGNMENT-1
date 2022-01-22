@@ -1,7 +1,8 @@
 #Question 1
-str1=("Python is a case sensitive language")                                                                              #(part a)
-print(len(str1))                                               # len is a built in function for find lenght of string      (part b)  
-print(str1[::-1])                                              # by[::-1] it reverse the string                            (part c)
+str1=("Python is a case sensitive language")                                                                              
+print(len(str1))                                               # len is a built in function for find lenght of string      (part a) 
+print(str1[::-1])                                              # by[::-1] it reverse the string                            (part b)
+print(str1[10::])                                                                                                        # (part c)
 print(str1.replace("case sensitive","object oriented"))                                                                  # (part d)
 print(str1.find('a'))                                                                                                    # (part e)
 print(str1.replace(" ",""))                                                                                              # (part f)
